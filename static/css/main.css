@@ -101,7 +101,7 @@ h1{font-size:55px;font-size:3.33333rem;margin-bottom:0.495em}
 h2{font-size:48px;font-size:2.6667rem;margin-bottom:0.61875em}
 @media (max-width: 550px){h2{font-size:40px}}
 
-h3{font-size:36px;font-size:2rem;margin-bottom:0.825em}
+h3{font-size:36px;font-size:2rem;margin-bottom:0.825;color:#404040;}
 @media (max-width: 550px){h3{font-size:28px}}
 
 h4{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375em}
@@ -304,10 +304,21 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:50px 0;pad
 
 .browsehappy{margin:0.2em 0;background:#ccc;color:#333;padding:0.2em 0}
 
-#site-header{text-align:center;min-height:15em;padding-top:7em;margin-bottom:9em}
+#site-header{
+  text-align:center;
+  min-height:15em;
+  padding-top:7em;
+  margin-bottom:120px;
+}
 @media (max-width: 800px){#site-header{padding-top:4em !important;margin-bottom:4em !important}}
 
-.blog-title{text-transform:lowercase;letter-spacing:6px;}
+.blog-title{
+  color: #404040;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: lowercase;
+  font-weight: bold;
+  letter-spacing:6px;
+}
 
 .blog-description{text-transform:uppercase;letter-spacing:4px;color:#b3b3b3;font-size:80%}
 
@@ -324,7 +335,15 @@ article.li{margin-bottom:2em !important;}}
 
 .post-title{margin-bottom:30px}
 
-.post-time{text-transform:uppercase;letter-spacing:4px;margin-bottom:30px;font-size:80%}
+.post-time{
+  color: #b4b4b4;
+  font-weight: 100;
+  text-transform:uppercase;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:4px;
+  margin-bottom:30px;
+  font-size:80%
+}
 
 .post-footer{text-align:center;text-transform:uppercase;letter-spacing:4px;font-size:80%;margin-top:30px}
 
@@ -343,7 +362,22 @@ article.li{margin-bottom:2em !important;}}
 
 .m-logo{display:none !important;visibility:hidden}
 
-.p-post-title{margin-bottom:50px}
+.p-post-title{
+  margin-bottom:50px
+  font-family: "Montserrat", "Georgia", serif;
+  font-weight: bold;
+  color: #404040;
+}
+
+.post-title a {
+    font-family: "Montserrat", "Georgia", serif;
+    font-weight: bold;
+    color: #404040;
+}
+
+.post-title a:hover {
+    color: #007998;
+}
 
 .f-1{*zoom:1}
 
@@ -371,3 +405,43 @@ article.li{margin-bottom:2em !important;}}
 @media (max-width: 550px){#comments{margin-top:1em}}.m-page a{color:#333 !important}
 
 #site-footer{text-align:center;height:10em}
+
+.menu {
+    color:#5f5f5f;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.menu a {
+    color: #b4b4b4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #000;
+}
+
+.content {
+    font-family: "Open Sans";
+    /* Covers main post content */
+
+}
+
+.readmore a {
+    color: #007998;
+}
+
+.readmore a:hover {
+    color: #000;
+}
+
+#jumphere {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+}
