@@ -351,6 +351,7 @@ article.li{margin-bottom:2em !important;}}
 .pagination{text-align:center;margin:4em 0 9em 0;color:#b3b3b3}
 @media (max-width: 800px){.pagination{margin:4em 0 6em 0 !important}}
 
+/* Links in content on pages */
 .post-content a,#site-footer a{
   color:#007998;
   text-decoration:none;
@@ -359,6 +360,16 @@ article.li{margin-bottom:2em !important;}}
 .post-content a:hover,#site-footer a:hover{
   color:#007998;
   border-bottom:1px solid;
+}
+
+.post-excerpt a a:visited{
+  color:#007998;
+  text-decoration:none;
+}
+
+.post-excerpt a:hover{
+  color:#007998;
+  border-bottom:1px solid:
 }
 
 .m-logo{display:none !important;visibility:hidden}
